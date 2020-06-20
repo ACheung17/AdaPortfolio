@@ -3,19 +3,19 @@ import { Carousel, CarouselItem, CarouselControl, Button } from 'reactstrap';
 
 const items = [
   {
-    src: "/images/signupPage1.png",
+    src: "images/signupPage1.png",
     altText: 'Newsletter Subscription',
     caption: 'Newsletter Subscription',
     location: "https://github.com/ACheung17/NewsletterSubscription"
   },
   {
-    src: '/images/todolist.png',
+    src: 'images/todolist.png',
     altText: 'To-Do List',
     caption: 'To-Do List',
     location: "https://github.com/ACheung17/ToDoList"
   },
   {
-    src: '/images/postNote.png',
+    src: 'images/postNote.png',
     altText: 'Post Notes',
     caption: 'Post Notes',
     location: "https://github.com/ACheung17/PostNotes"
