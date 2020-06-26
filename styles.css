@@ -123,6 +123,12 @@ a.nav-link {
     padding-right: 5%;
 }
 
+.project-btn {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /* Footer Section */
 footer {
     opacity: 0.25;
@@ -134,4 +140,27 @@ footer p {
 
 footer .container {
     padding: 5% 0 3%;
+}
+
+/* SubNav */
+.logo {
+    width: 45px;
+}
+
+.project-list {
+    color: black;
+}
+
+/* project page */
+.proj img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.projectImg {
+    width: 70%;    
+}
+
+.img2 {
+    width: 80%;
 }
