@@ -1,0 +1,3 @@
+"homepage": "https://acheung17.github.io/AdaPortfolio",
+// "predeploy": "npm run build",
+    // "deploy": "gh-pages -d build",

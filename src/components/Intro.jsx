@@ -5,9 +5,9 @@ function Intro() {
     return (
         <section id="intro">
             <HomeNav />
-            <div class="intro-div container"> 
+            <div className="intro-div container"> 
                 <h1 style={{fontSize: "7.5rem"}}>I'm Ada</h1>
-                <h2 class="intro-sub">... an aspiring web developer.</h2>
+                <h2 className="intro-sub">... an aspiring web developer.</h2>
             </div>
         </section>
     );

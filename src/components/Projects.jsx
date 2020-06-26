@@ -6,19 +6,22 @@ const items = [
     src: "images/signupPage1.png",
     altText: 'Newsletter Subscription',
     caption: 'Newsletter Subscription',
-    location: "https://github.com/ACheung17/NewsletterSubscription"
+    location: "https://github.com/ACheung17/NewsletterSubscription",
+    appLink: "https://polar-sands-98621.herokuapp.com/"
   },
   {
     src: 'images/todolist.png',
     altText: 'To-Do List',
     caption: 'To-Do List',
-    location: "https://github.com/ACheung17/ToDoList"
+    location: "https://github.com/ACheung17/ToDoList",
+    appLink: "https://secure-everglades-43252.herokuapp.com/"
   },
   {
     src: 'images/postNote.png',
     altText: 'Post Notes',
     caption: 'Post Notes',
-    location: "https://github.com/ACheung17/PostNotes"
+    location: "https://github.com/ACheung17/PostNotes",
+    appLink: "https://acheung17.github.io/PostNotes/"
   }
 ];
 
@@ -48,15 +51,16 @@ function Projects() {
       <img src={item.src} alt={item.altText} className="project-img" />
       <div className="caption">
         <h5>{item.caption}</h5>
-        <Button outline color="light" href={item.location} target="_blank">VIEW PROJECT</Button>
+        <Button className="project-btn" outline color="light" href={item.appLink} target="_blank">VIEW PROJECT</Button>
+        <Button className="project-btn" outline color="light" href={item.location} target="_blank">VIEW CODE</Button>
       </div> 
       </CarouselItem>
     );
   });
 
   return (
-    <section id="projects" class="colored-section">
-      <div class="container">
+    <section id="projects" className="colored-section">
+      <div className="container">
         <h2>Projects</h2>
         <Carousel
           activeIndex={activeIndex}

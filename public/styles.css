@@ -123,6 +123,12 @@ a.nav-link {
     padding-right: 5%;
 }
 
+.project-btn {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /* Footer Section */
 footer {
     opacity: 0.25;
