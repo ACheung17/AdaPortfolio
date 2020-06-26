@@ -3,11 +3,11 @@ import { Carousel, CarouselItem, CarouselControl, Button } from 'reactstrap';
 
 const items = [
   {
-    src: "images/signupPage1.png",
-    altText: 'Newsletter Subscription',
-    caption: 'Newsletter Subscription',
-    location: "https://github.com/ACheung17/NewsletterSubscription",
-    appLink: "https://polar-sands-98621.herokuapp.com/"
+    src: 'images/postNote.png',
+    altText: 'Post Notes',
+    caption: 'Post Notes',
+    location: "https://github.com/ACheung17/PostNotes",
+    appLink: "https://acheung17.github.io/PostNotes/"
   },
   {
     src: 'images/todolist.png',
@@ -17,11 +17,11 @@ const items = [
     appLink: "https://secure-everglades-43252.herokuapp.com/"
   },
   {
-    src: 'images/postNote.png',
-    altText: 'Post Notes',
-    caption: 'Post Notes',
-    location: "https://github.com/ACheung17/PostNotes",
-    appLink: "https://acheung17.github.io/PostNotes/"
+    src: "images/signupPage1.png",
+    altText: 'Newsletter Subscription',
+    caption: 'Newsletter Subscription',
+    location: "https://github.com/ACheung17/NewsletterSubscription",
+    appLink: "https://polar-sands-98621.herokuapp.com/"
   }
 ];
 
