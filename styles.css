@@ -17,7 +17,7 @@ h1{
 }
 h2, h3, h4{
     font-family: 'Libre Baskerville';
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 h2 {
     font-size: 2.5rem;
@@ -154,6 +154,10 @@ footer .container {
 /* project page */
 .subnavlink{
     color: white;
+}
+
+.projectList {
+    margin-top: 20px;
 }
 
 .projects img {
