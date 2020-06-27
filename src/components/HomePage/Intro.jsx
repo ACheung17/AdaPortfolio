@@ -1,5 +1,5 @@
 import React from "react";
-import HomeNav from "./HomeNav";
+import HomeNav from "../HomeNav";
 
 function Intro() {
     return (

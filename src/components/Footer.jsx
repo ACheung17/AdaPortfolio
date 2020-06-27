@@ -1,12 +1,12 @@
 import React from "react";
 
-function Footer() {
+function Footer(props) {
     const year = new Date().getFullYear();
+    const abt = <p>This website was created with ReactJS.</p>;
     return(
         <footer id="footer" class="colored-section">
         <div class="container centre-text">
-            <h4>About this website</h4>
-            <p>This website was created with ReactJS.</p>
+            {props.home && abt}
             <p>© Copyright {year} Ada Cheung</p>
         </div>
     </footer>

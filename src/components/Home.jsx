@@ -1,7 +1,7 @@
 import React from "react";
-import Intro from "./Intro";
-import Projects from "./Projects";
-import Connect from "./Connect";
+import Intro from "./HomePage/Intro";
+import Projects from "./HomePage/Projects";
+import Connect from "./HomePage/Connect";
 import Footer from "./Footer";
 
 function Home(){
@@ -10,7 +10,7 @@ function Home(){
             <Intro />
             <Projects />
             <Connect />
-            <Footer />    
+            <Footer home={true} />    
         </div>
     );
 }

@@ -1,14 +1,16 @@
 import React from "react";
+import SubNav from "../SubNav";
 
 function AboutMe() {
     return (
-        <section id="aboutme">
-            <div className="container">
+        <div>
+            <SubNav />
+            <div id="aboutme" className="container">
                 <h2>About me</h2>
                 <p>
                     Hi there and welcome to my website! I studied Computer Science at York
                     University and recently graduated. Currently, I'm focused on learning more
-                    and improving my skills on <em>web development</em>.
+                    and improving my <em>web development</em>skills.
                 </p>
                 <p>
                     I love learning a variety of things. Here's some of the topics I've been learning
@@ -30,9 +32,9 @@ function AboutMe() {
                     </ul>
                 </p>
             </div>
-        </section>
+        </div>
+
     );
 }
-
 
 export default AboutMe;

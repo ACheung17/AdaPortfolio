@@ -1,12 +1,20 @@
 import React from 'react';
-import SubNav from "./SubNav";
+import SubNav from "../SubNav";
+import Footer from "../Footer";
 
 function Newsletter() {
     return (
         <div>
-            <SubNav />
+            <SubNav moreLinks={true} />
             <div className="container projects">
                 <h2>Newsletter Subscription Application</h2>
+                <p><strong>
+                    Click the link to try it out:
+                    <a href="https://polar-sands-98621.herokuapp.com/">
+                        https://polar-sands-98621.herokuapp.com/
+                    </a>
+                </strong></p>
+                
                 <p>
                     This is a newsletter subscription application that collects and stores
                     user's email, first and last name. Collected data is added to a mailing
@@ -24,11 +32,7 @@ function Newsletter() {
                     user's data; and a "Unsubscribe" button that allow subscribed members to
                     unsubscribe.
                 </p>
-                <img
-                    className="projectImg"
-                    src="/images/signupPage.jpg"
-                    alt="Newsletter Signup Page"
-                />
+                <img className="projectImg" src="images/signupPage.jpg" alt="Newsletter Signup Page" />
                 <p>
                     After users provide their data through the input fields, and click the
                     "Sign Me Up" button. Feedback is provided to the user. A successful
@@ -36,7 +40,7 @@ function Newsletter() {
                 </p>
                 <img
                     className="img2"
-                    src="/images/successFeedback.PNG"
+                    src="images/successFeedback.PNG"
                     alt="Successfully subscribed"
                 />
                 <p>
@@ -44,7 +48,7 @@ function Newsletter() {
                 </p>
                 <img
                     className="img2"
-                    src="/images/failToSub.PNG"
+                    src="images/failToSub.PNG"
                     alt="Fail to subscribe"
                 />
                 <p>
@@ -56,24 +60,20 @@ function Newsletter() {
                     where they can provide the email that they would like to be unsubscribed from
                     the from the mailing list.
                 </p>
-                <img className="projectImg" src="/images/unsubPage.PNG" alt="Unsubscribe Page" />
+                <img className="projectImg" src="images/unsubPage.PNG" alt="Unsubscribe Page" />
                 <p>
                     Similiar to subscribing, unsubscribing also provides feedback to the user:
                 </p>
-                <img className="img2" src="/images/successUnsub.PNG" alt="Successfully Unsubscribed" />
+                <img className="img2" src="images/successUnsub.PNG" alt="Successfully Unsubscribed" />
                 <p>
                     In the case of an unsuccessful unsubscribing process, for example,
                     providing a non-existing or mispelt email, will result in the
                     following feedback message:
                 </p>
-                <img className="img2" src="/images/failToUnsub.PNG" alt="Fail to unsubscribe" />
-                <p>
-                    Click the link to try it out:
-                    <a href="https://polar-sands-98621.herokuapp.com/">
-                        https://polar-sands-98621.herokuapp.com/
-                    </a>
-                </p>
+                <img className="img2" src="images/failToUnsub.PNG" alt="Fail to unsubscribe" />
+                
             </div>
+            <Footer home={false} />
         </div>
     );
 }
