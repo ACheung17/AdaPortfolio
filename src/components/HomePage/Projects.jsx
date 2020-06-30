@@ -3,6 +3,13 @@ import { Carousel, CarouselItem, CarouselControl, Button } from 'reactstrap';
 
 const items = [
   {
+    src: 'images/letsEat.jpg',
+    altText: "Let's Eat",
+    caption: "Let's Eat",
+    location: "https://github.com/ACheung17/LetsEat",
+    appLink: "https://infinite-dawn-76227.herokuapp.com/restaurants"
+  },
+  {
     src: 'images/postNote.png',
     altText: 'Post Notes',
     caption: 'Post Notes',
