@@ -4,10 +4,10 @@ import { Nav, Navbar, NavLink } from 'reactstrap';
 function SubNav(props) {
     return (
         <div>
-        <Navbar color="dark">
+        <Navbar className="sub-nav">
             <Nav className="mr-auto" navbar >
-                <NavLink href="#/"><img className="logo" src="images/AC-dark.png" alt="logo" /></NavLink>
-                
+                <NavLink href="#/" className="logo-txt"><div className="logo-box">AC</div></NavLink>
+                {/* <img className="logo" src="/images/AC-dark.png" alt="logo" /> */}
             </Nav>
             {props.moreLinks && <NavLink className="subnavlink" href="#/projects">More Projects</NavLink>}
         </Navbar>

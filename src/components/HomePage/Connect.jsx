@@ -5,8 +5,8 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 function Connect() {
     return (
-        <section id="connect" class="white-section">
-        <div class="container centre-text">
+        <section id="connect" className="white-section">
+        <div className="myContainer centre-text">
             <h2>Let's connect</h2>
             <p>I'm currently open to any opportunities, and would love to make meaningful contributions to your team and/or projects.</p>
             <p> Or even feedback on this website! Let me know what you liked or how I can improve it.</p>    

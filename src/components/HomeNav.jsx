@@ -7,8 +7,10 @@ function HomeNav() {
         <Navbar expand="md">
             <Nav className="mx-auto" navbar >
                 <NavLink href="#/aboutme">AboutMe</NavLink>
+                {/* <NavLink href="#/projects">Projects</NavLink> */}
                 <NavLink href="#/projects">Projects</NavLink>
                 <NavLink href="AdaCheungResume.pdf">Resume</NavLink>
+                
             </Nav>
         </Navbar>
         </div>

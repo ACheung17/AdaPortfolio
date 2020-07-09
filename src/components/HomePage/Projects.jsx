@@ -3,9 +3,16 @@ import { Carousel, CarouselItem, CarouselControl, Button } from 'reactstrap';
 
 const items = [
   {
-    src: 'images/letsEat.jpg',
+    src: 'images/letsEat-app.png',
     altText: "Let's Eat",
     caption: "Let's Eat",
+    location: "https://github.com/ACheung17/LetsEat-APP",
+    appLink: "https://acheung17.github.io/LetsEat-APP/#/"
+  },
+  {
+    src: 'images/letsEat.jpg',
+    altText: "Let's Eat (REST API)",
+    caption: "Let's Eat (REST API)",
     location: "https://github.com/ACheung17/LetsEat",
     appLink: "https://infinite-dawn-76227.herokuapp.com/restaurants"
   },
@@ -15,20 +22,6 @@ const items = [
     caption: 'Post Notes',
     location: "https://github.com/ACheung17/PostNotes",
     appLink: "https://acheung17.github.io/PostNotes/"
-  },
-  {
-    src: 'images/todolist.png',
-    altText: 'To-Do List',
-    caption: 'To-Do List',
-    location: "https://github.com/ACheung17/ToDoList",
-    appLink: "https://secure-everglades-43252.herokuapp.com/"
-  },
-  {
-    src: "images/signupPage1.png",
-    altText: 'Newsletter Subscription',
-    caption: 'Newsletter Subscription',
-    location: "https://github.com/ACheung17/NewsletterSubscription",
-    appLink: "https://polar-sands-98621.herokuapp.com/"
   }
 ];
 
@@ -58,17 +51,17 @@ function Projects() {
       <img src={item.src} alt={item.altText} className="project-img" />
       <div className="caption">
         <h5>{item.caption}</h5>
-        <Button className="project-btn" outline color="light" href={item.appLink} target="_blank">VIEW PROJECT</Button>
-        <Button className="project-btn" outline color="light" href={item.location} target="_blank">VIEW CODE</Button>
+        <Button className="project-btn" outline color="dark" href={item.appLink} target="_blank">VIEW PROJECT</Button>
+        <Button className="project-btn" outline color="dark" href={item.location} target="_blank">VIEW CODE</Button>
       </div> 
       </CarouselItem>
     );
   });
 
   return (
-    <section id="projects" className="colored-section">
-      <div className="container">
-        <h2>Projects</h2>
+    <section id="projects" className="white-section">
+      <div className="myContainer">
+        <h2>Highlights</h2>
         <Carousel
           activeIndex={activeIndex}
           next={next}

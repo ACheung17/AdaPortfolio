@@ -3,7 +3,6 @@ html, body {
     overflow-x: hidden;
 }
 body {
-    /* position: relative; */
     font-family: 'Montserrat';
     font-size: 18px;
     line-height: 1.75; 
@@ -11,16 +10,19 @@ body {
 }
 h1{
     color: #545454;
+    /* color: #606060; */
+    /* color: #696969; */
     font-family: 'Lobster';
     font-size: 7.5rem;
     margin-top: 0;
 }
 h2, h3, h4{
-    font-family: 'Libre Baskerville';
-    padding-bottom: 2%;
+    /* font-family: 'Libre Baskerville'; */
+    font-family: "Martel";
+    padding: 2% 0;
 }
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 h3 {
     font-size: 1.5rem;
@@ -31,25 +33,30 @@ h3 {
 }
 
 /* Containers */
-.container {
-    margin: 0 3rem;
-    padding: 7% 20% 8%;
-    width: 80%;
+.myContainer {
+    margin: 0 auto;
+    padding: 3% 0 7%;
+    width: 60%;
+}
+
+#homepage{
+    background: linear-gradient(180deg,#D3D3D3 38%, #C9BBCB 52%, #E7E7E7 98%);
 }
 
 /* Alternating Sections*/
 .white-section {
     color: #545454;
 }
-.colored-section {
+/* .colored-section {
     background-color: #545454;
     color: white;
-}
+} */
 
 /* Navigation Bar */
 .nav-link {
     font-family: 'Montserrat';
     color: #696969;
+    /* color: #9C8AA4; */
     font-weight: bold;
 }
 a.nav-link {
@@ -59,7 +66,9 @@ a.nav-link {
 
 /* Intro Section */
 #intro {
-    background-image: url(images/marble.jpg);
+    background: 
+        linear-gradient(transparent, #D3D3D3 95%), 
+        url("images/marble.jpg") no-repeat center;
     background-size: 100%;
 }
 
@@ -80,6 +89,10 @@ a.nav-link {
     width: 55% auto;
 }
 /* Project Section */
+#projects h2 {
+    /* color: white; */
+    color: #545454;
+}
 .carousel-item {
     text-align: center;
 }
@@ -105,7 +118,8 @@ a.nav-link {
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    /* color: #fff; */
+    color: #545454;
     text-align: center;
     display: none;
 }
@@ -147,6 +161,21 @@ footer .container {
     width: 45px;
 }
 
+.sub-nav{
+    background-color:#606060;
+}
+.logo-txt {
+    color: white;
+    font-family: "Lobster";
+    font-size: 1.75rem;
+}
+
+.logo-box{
+    border: solid white 1px;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
 .project-list {
     color: black;
 }
@@ -175,4 +204,12 @@ footer .container {
 
 .projects p {
     margin-bottom: 10px;
+}
+
+/* =========== PROJECTS ALBUM ================ */
+.centre{
+    margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

@@ -1,11 +1,12 @@
 import React from "react";
 import SubNav from "../SubNav";
+import Footer from "../Footer";
 
 function AboutMe() {
     return (
         <div>
             <SubNav />
-            <div id="aboutme" className="container">
+            <div id="aboutme" className="myContainer">
                 <h2>About me</h2>
                 <p>
                     Hi there and welcome to my website! I studied Computer Science at York
@@ -32,6 +33,7 @@ function AboutMe() {
                     </ul>
                 </p>
             </div>
+            <Footer />
         </div>
 
     );

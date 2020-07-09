@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 function Home(){
     return (
-        <div>
+        <div id="homepage">
             <Intro />
             <Projects />
             <Connect />
