@@ -164,6 +164,17 @@ footer .container {
 .sub-nav{
     background-color:#606060;
 }
+.logo-txt {
+    color: white;
+    font-family: "Lobster";
+    font-size: 1.75rem;
+}
+
+.logo-box{
+    border: solid white 1px;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
 
 .project-list {
     color: black;
